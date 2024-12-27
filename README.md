@@ -3,7 +3,7 @@ When people asked me my music type, I always gave a vague answer like "all types
 I also wanted to see how similar my music taste was to my close friend.
 
 # Goals
-- What are the common characteristics of the music I add?
+- What are the standout characteristics of the music I add? (Any outliers?)
 - How has my music taste evolved over time?
 - Which genres do I listen to most often?
 - What is my average song duration, and does it change over time?
