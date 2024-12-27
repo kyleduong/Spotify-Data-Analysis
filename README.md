@@ -1,6 +1,7 @@
 # Introduction
 When people asked me my music type, I always gave a vague answer like "all types" because thats what I geniunely thought my music type was. However, I wanted to dig deeper and find the true nature of my music type.
-I also wanted to see how similar my music taste was to my close friend.
+Throughout my data exploration for insights into my "music type", I uncovered that the music I listen to is quite popular compared to other people, so this inspired me to uncover data for prospective artists, to find out what aspects of music led to high streaming/popularity and success overall.
+
 
 # Goals
 - What are the standout characteristics of the music I add? (Any outliers?)

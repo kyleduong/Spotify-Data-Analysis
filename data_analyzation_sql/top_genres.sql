@@ -1,22 +1,10 @@
 /*
-ALL QUESTIONS TO ANSWER:
-- What are the standout characteristics of the music I add? (Any outliers?)
-- ^ too vague maybe
-- How has my music taste evolved over time?
-- Which genres do I listen to most often?
-- What is my average song duration, and does it change over time?
-- What is the overall popularity of my music?
-- What aspects of music do my friend and I have in common?
-*/
-
--- This file will use SQL to answer: Which genres do I listen to most often?
-/*
 Question: Which genres do I listen to most often?
  - Indentify all the genres I listen to, and then limit to the top 5
  - Focus on all types of types of music from any time
  - Why is this important?
-    - Help to isolate any particular genre that I listen to unconsiously, or to 
-    figure out if I listen to all genres equally.
+    - It can enhance the music discovery profess, help create genre-based playlists
+    - and lead to more personalized music reccomendations
 */
 
 -- This is to read the whole table
