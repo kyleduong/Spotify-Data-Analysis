@@ -22,7 +22,24 @@ Question: What aspects of music do my friend and I have in common?
     - and lead to more personalized music reccomendations
 */
 
+SELECT *
+FROM global_music_taste;
+
+-- This calculates the averge popularity ratings for me, my friends, and the top 50 global songs.
 SELECT
-    *
+AVG(friend.popularity) AS friend_avg_popularity,
+AVG(me.popularity) AS me_avg_popularity,
+AVG(globally.popularity) AS global_avg_popularity
+FROM friend_music_taste AS friend,
+my_music_taste AS me,
+global_music_taste AS globally;
+
+
+-- Number of songs my friend and I have in common
+SELECT
+    COUNT(*) AS number_of_similar_songs
 FROM
-    friend_music_taste;
+    my_music_taste
+INNER JOIN friend_music_taste AS friend ON friend.track_id = my_music_taste.track_id
+
+-- 

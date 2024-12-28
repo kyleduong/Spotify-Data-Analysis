@@ -1,6 +1,6 @@
 CREATE DATABASE friend_music_taste;
 
-CREATE TABLE friend_music_taste (
+CREATE TABLE global_music_taste (
     Track_ID TEXT,
     Track_Name VARCHAR(255),
     Album_Name VARCHAR(255),
@@ -39,5 +39,5 @@ ALTER TABLE friends_music_taste
 
 /*
 IF PERSMISSION DENIED: 
-\copy friend_music_taste FROM 'C:\Users\kyled\Documents\ALL DATA ANALYST PROJECTS\Spotify Data Analysis\csv_files\boom.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8')
+\copy global_music_taste FROM 'C:\Users\kyled\Documents\ALL DATA ANALYST PROJECTS\Spotify Data Analysis\csv_files\top_tracks_of_2024_global.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8')
 */
